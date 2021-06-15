@@ -3,6 +3,11 @@
         "name": "g4rcez",
         "url": "https://github.com/g4rcez"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/g4rcez/dark-brabo"
+    },
+    "publisher": "g4rcez",
     "name": "dark-brabo",
     "displayName": "dark-brabo",
     "description": "Brabo color schema",
