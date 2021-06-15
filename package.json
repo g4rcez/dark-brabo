@@ -1,0 +1,25 @@
+{
+    "author": {
+        "name": "g4rcez",
+        "url": "https://github.com/g4rcez"
+    },
+    "name": "dark-brabo",
+    "displayName": "dark-brabo",
+    "description": "Brabo color schema",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Brabo",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark Brabo-color-theme.json"
+            }
+        ]
+    }
+}
