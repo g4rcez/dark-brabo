@@ -359,7 +359,7 @@
 				"support.class"
 			],
 			"settings": {
-				"foreground": "#E5C07B"
+				"foreground": "#D19A66"
 			}
 		},
 		{
@@ -848,7 +848,22 @@
 				"source.js keyword.operator.instanceof",
 				"source.js keyword.operator.new",
 				"source.js keyword.operator.typeof",
-				"source.js keyword.operator.void"
+				"source.js keyword.operator.void",
+				"source.ts keyword.operator.delete",
+				"source.ts keyword.operator.in",
+				"source.ts keyword.operator.of",
+				"source.ts keyword.operator.instanceof",
+				"source.ts keyword.operator.new",
+				"source.ts keyword.operator.typeof",
+				"source.ts keyword.operator.void",
+				"source.tsx keyword.operator.delete",
+				"source.tsx keyword.operator.in",
+				"source.tsx keyword.operator.of",
+				"source.tsx keyword.operator.instanceof",
+				"source.tsx keyword.operator.new",
+				"source.tsx keyword.operator.typeof",
+				"source.tsx keyword.operator.void",
+				"keyword.operator.expression.typeof"
 			],
 			"settings": {
 				"foreground": "#C678DD"
@@ -972,15 +987,12 @@
 			}
 		},
 		{
-			"scope": "support.type.property-name.json",
+			"scope": [
+				"support.type.property-name.json",
+				"support.type.property-name.json punctuation"
+			],
 			"settings": {
-				"foreground": "#E06C75"
-			}
-		},
-		{
-			"scope": "support.type.property-name.json punctuation",
-			"settings": {
-				"foreground": "#E06C75"
+				"foreground": "#D19A66"
 			}
 		},
 		{
@@ -1234,7 +1246,8 @@
 				"variable.other.readwrite.alias.tsx"
 			],
 			"settings": {
-				"foreground": "#E06C75"
+				"fontStyle": "bold",
+				"foreground": "#D19A66"
 			}
 		},
 		{
@@ -1279,9 +1292,15 @@
 			}
 		},
 		{
-			"scope": "entity.name.type.module.js,entity.name.type.module.ts,entity.name.type.module.jsx,entity.name.type.module.tsx",
+			"scope": [
+				"entity.name.type.module.ts",
+				"entity.name.type.module.tsx",
+				"entity.name.type.module.js",
+				"entity.name.type.module.jsx"
+			],
 			"settings": {
-				"foreground": "#98C379"
+				"foreground": "#C678DD",
+				"fontStyle": "bold"
 			}
 		},
 		{

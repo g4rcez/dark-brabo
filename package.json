@@ -18,6 +18,9 @@
     "categories": [
         "Themes"
     ],
+    "scripts": {
+        "patch": "npm version patch && vsce package"
+    },
     "contributes": {
         "themes": [
             {
