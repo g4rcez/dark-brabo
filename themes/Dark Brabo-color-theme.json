@@ -128,7 +128,7 @@
 				"keyword.operator"
 			],
 			"settings": {
-				"foreground": "#C678DD"
+				"foreground": "#A4BED6"
 			}
 		},
 		{
@@ -529,15 +529,6 @@
 			],
 			"settings": {
 				"foreground": "#523D14",
-				"background": "#E0C285"
-			}
-		},
-		{
-			"scope": [
-				"invalid.illegal"
-			],
-			"settings": {
-				"background": "#E05252"
 			}
 		},
 		{
@@ -666,104 +657,6 @@
 		},
 		{
 			"scope": [
-				"source.elixir source.embedded.source"
-			],
-			"settings": {
-				"foreground": "#ABB2BF"
-			}
-		},
-		{
-			"scope": [
-				"source.elixir constant.language",
-				"source.elixir constant.numeric",
-				"source.elixir constant.definition"
-			],
-			"settings": {
-				"foreground": "#61AFEF"
-			}
-		},
-		{
-			"scope": [
-				"source.elixir variable.definition",
-				"source.elixir variable.anonymous"
-			],
-			"settings": {
-				"foreground": "#C678DD"
-			}
-		},
-		{
-			"scope": [
-				"source.elixir parameter.variable.function"
-			],
-			"settings": {
-				"foreground": "#D19A66",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"scope": [
-				"source.elixir quoted"
-			],
-			"settings": {
-				"foreground": "#98C379"
-			}
-		},
-		{
-			"scope": [
-				"source.elixir keyword.special-method",
-				"source.elixir embedded.section",
-				"source.elixir embedded.source.empty"
-			],
-			"settings": {
-				"foreground": "#E06C75"
-			}
-		},
-		{
-			"scope": [
-				"source.elixir readwrite.module punctuation"
-			],
-			"settings": {
-				"foreground": "#E06C75"
-			}
-		},
-		{
-			"scope": [
-				"source.elixir regexp.section",
-				"source.elixir regexp.string"
-			],
-			"settings": {
-				"foreground": "#BE5046"
-			}
-		},
-		{
-			"scope": [
-				"source.elixir separator",
-				"source.elixir keyword.operator"
-			],
-			"settings": {
-				"foreground": "#D19A66"
-			}
-		},
-		{
-			"scope": [
-				"source.elixir variable.constant"
-			],
-			"settings": {
-				"foreground": "#E5C07B"
-			}
-		},
-		{
-			"scope": [
-				"source.elixir array",
-				"source.elixir scope",
-				"source.elixir section"
-			],
-			"settings": {
-				"foreground": "#828997"
-			}
-		},
-		{
-			"scope": [
 				"source.gfm markup"
 			],
 			"settings": {}
@@ -790,14 +683,6 @@
 			],
 			"settings": {
 				"foreground": "#E06C75"
-			}
-		},
-		{
-			"scope": [
-				"source.java storage.modifier.import"
-			],
-			"settings": {
-				"foreground": "#E5C07B"
 			}
 		},
 		{
@@ -863,10 +748,23 @@
 				"source.tsx keyword.operator.new",
 				"source.tsx keyword.operator.typeof",
 				"source.tsx keyword.operator.void",
-				"keyword.operator.expression.typeof"
+				"keyword.operator.expression.keyof"
 			],
 			"settings": {
 				"foreground": "#C678DD"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.expression.keyof.ts",
+				"keyword.operator.expression.keyof.tsx",
+				"keyword.operator.new",
+				"keyword.operator.expression.typeof",
+				"keyword.operator.void",
+				"keyword.operator.instanceof"
+			],
+			"settings": {
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -919,31 +817,6 @@
 			],
 			"settings": {
 				"foreground": "#56B6C2"
-			}
-		},
-		{
-			"scope": [
-				"ng.interpolation"
-			],
-			"settings": {
-				"foreground": "#E06C75"
-			}
-		},
-		{
-			"scope": [
-				"ng.interpolation.begin",
-				"ng.interpolation.end"
-			],
-			"settings": {
-				"foreground": "#61AFEF"
-			}
-		},
-		{
-			"scope": [
-				"ng.interpolation function"
-			],
-			"settings": {
-				"foreground": "#E06C75"
 			}
 		},
 		{
@@ -1380,7 +1253,8 @@
 				"constant.language.json"
 			],
 			"settings": {
-				"foreground": "#56B6C2"
+				"foreground": "#ffbd41",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -1643,6 +1517,16 @@
 			}
 		},
 		{
+			"scope": [
+				"entity.name.section.markdown.heading",
+				"entity.name.section.markdown.heading",
+				"markup.heading.markdown"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"scope": "markup.heading.setext",
 			"settings": {
 				"foreground": "#ABB2BF"
@@ -1708,37 +1592,10 @@
 			}
 		},
 		{
-			"scope": "punctuation.separator.variable.ruby",
-			"settings": {
-				"foreground": "#E06C75"
-			}
-		},
-		{
-			"scope": "variable.other.constant.ruby",
-			"settings": {
-				"foreground": "#D19A66"
-			}
-		},
-		{
-			"scope": "keyword.operator.other.ruby",
-			"settings": {
-				"foreground": "#98C379"
-			}
-		},
-		{
-			"scope": "punctuation.definition.variable.php",
-			"settings": {
-				"foreground": "#E06C75"
-			}
-		},
-		{
-			"scope": "meta.class.php",
-			"settings": {
-				"foreground": "#ABB2BF"
-			}
-		},
-		{
-			"scope": "token.info-token",
+			"scope": [
+				"token.info-token",
+				"punctuation.definition.markdown"
+			],
 			"settings": {
 				"foreground": "#6796E6"
 			}
@@ -1759,6 +1616,28 @@
 			"scope": "token.debug-token",
 			"settings": {
 				"foreground": "#B267E6"
+			}
+		},
+		{
+			"scope": "fenced_code.block.language.markdown",
+			"settings": {
+				"foreground": "#C678DD90"
+			}
+		},
+		{
+			"scope": "keyword.other.special-method.dockerfile",
+			"settings": {
+				"foreground": "#C678DD"
+			}
+		},
+		{
+			"scope": [
+				"comment.line.number-sign.shebang.shell",
+				"punctuation.definition.comment.shebang.shell"
+			],
+			"settings": {
+				"foreground": "#4f5050",
+				"fontStyle": ""
 			}
 		}
 	]
